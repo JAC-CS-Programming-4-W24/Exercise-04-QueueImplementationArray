@@ -29,7 +29,7 @@ class IntStack:
         self._tos += 1
         self._elements[self._tos] = element
 
-    def dequeue(self) -> int:
+    def pop(self) -> int:
         """
         Remove the topmost element of the stack. Precondition: stack not empty.
         :return: The element removed from the stack.
@@ -40,7 +40,7 @@ class IntStack:
         self._tos -= 1
         return tmp
 
-    def front(self) -> int:
+    def top(self) -> int:
         """
         Get the topmost element of the stack. Precondition: stack not empty
         :return:
