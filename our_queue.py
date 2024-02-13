@@ -1,4 +1,3 @@
-from typing import Iterator
 
 from our_array import Array
 
@@ -23,9 +22,6 @@ class IntQueue:
         pass  # TODO
 
     def is_full(self) -> bool:
-        pass  # TODO
-
-    def __iter__(self) -> Iterator[int]:
         pass  # TODO
 
     def __str__(self):
