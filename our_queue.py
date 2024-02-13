@@ -28,4 +28,4 @@ class IntQueue:
         pass  # TODO
 
     def __repr__(self):
-        pass  # TODO
+        return str(self)
