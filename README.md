@@ -1,2 +1,35 @@
-# Exercise-04-QueueImplementationArray
-Starter for implementing the Queue Data Structure using Arrays (linear and circular)
+# Objectives
+
+**Implement** a queue data structure.
+
+# Context
+
+There is a complete simulation algorithm in the file `main.py`. There is
+one big missing piece: it relies in the `Queue` we\'ve designed, but
+that class is not complete!
+
+# TODO
+
+If you are not in class right now, read the notes on Queue API and .
+There are two techniques that we\'re going to use.
+
+## Idea 1: try implementing all `Queue` operations using the technique we did in `Stack`.
+
+<https://jac-cs-programming-4-w24.github.io/Notes/#/4-Queues/?id=implementing-a-queue-using-an-array>
+
+1.  Implement the methods of the `Queue` API: `enqueue(..)`,
+    `dequeue()`, `front()`.
+2.  Remember to `raise` exceptions
+    `QueueOverflowError` and `QueueUnderflowError` when the caller has
+    not met the operation preconditions.
+3.  Implement `is_empty()` and `is_full()`.
+
+## Idea 2: try implementing `Queue` using the "circular" array idea.
+
+<https://jac-cs-programming-4-w24.github.io/Notes/#/4-Queues/?id=%e2%ad%95%ef%b8%8f-circular-array>
+
+1.  Implement the methods of the `Queue` API: `enqueue(..)`,
+    `dequeue()`, `front()`.
+2.  Raise exceptions `QueueOverflowError and ~QueueUnderflowError` when
+    the caller has not met the operation preconditions.
+3.  Challenge: implement `is_empty()` and `is_full()`.
